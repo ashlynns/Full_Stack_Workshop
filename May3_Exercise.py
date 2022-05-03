@@ -9,5 +9,6 @@ def my_function(input1, input2):
 	subtract = input1 - input2 
 	print('Subtraction: ', subtract)
 
-
-my_function(3,4)
+input1 = int(input('Please provide a number:'))
+input2 = int(input('Another one please: '))
+my_function(input1,input2)
